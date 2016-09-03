@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#51bee2"
+    tools:context="com.example.cunfe.nexusapp.MyCameraActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <TextureView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/surfaceViewMyCamera"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:id="@+id/btnTakePhoto"
+        android:onClick="ChangeCamera"
+        android:layout_gravity="center_horizontal|bottom"
+        style="@style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:background="@android:drawable/ic_menu_camera" />
+
+    <Button
+        style="@style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:id="@+id/btnTakeVideo"
+        android:onClick="MyTakePhot"
+        android:layout_gravity="right|bottom"
+        android:background="@android:drawable/presence_video_online" />
+
+    <Button
+        style="@style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        android:id="@+id/btnChangeCamera"
+        android:onClick="ChangeCamera"
+        android:layout_gravity="left|bottom"
+        android:background="@android:drawable/ic_menu_revert" />
+
+</FrameLayout>

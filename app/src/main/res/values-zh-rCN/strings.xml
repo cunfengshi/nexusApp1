@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">▄【┻═┳一</string>
+
+    <string name="dummy_button">提交</string>
+    <string name="dummy_content">Nexus\nApp</string>
+    <string name="title_activity_main">▄【┻═┳一</string>
+
+    <string name="checkboxadd">新增</string>
+    <string name="takephoto_button">照相</string>
+    <string name="takevideo_button">录像</string>
+    <string name="play_button">播放</string>
+    <string name="pause_button">暂停</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_search">查找</string>
+    <string name="name">用户名</string>
+    <string name="nameerror">请输入账户！</string>
+    <string name="password">密码</string>
+    <string name="passworderror">请输入密码！</string>
+    <string name="title_activity_camera">照相</string>
+    <string name="title_activity_video">录像</string>
+    <string name="action_showpic">图片</string>
+    <string name="title_activity_grid_view_test">图片列表</string>
+</resources>

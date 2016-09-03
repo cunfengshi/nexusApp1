@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Import" />
+        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item android:id="@+id/nav_music" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Music" />
+        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Tools" />
+        <item android:id="@+id/nav_pass" android:icon="@android:drawable/ic_menu_add"
+            android:title="Pass" />
+        <item android:id="@+id/nav_contacts" android:icon="@android:drawable/ic_menu_add"
+            android:title="Contacts" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+    <item android:title="Email">
+        <menu>
+            <item android:id="@+id/nav_sendEmail" android:icon="@android:drawable/ic_dialog_email"
+                android:title="SendEmail"/>
+            <item android:id="@+id/nav_showPic" android:icon="@android:drawable/ic_dialog_info"
+                android:title="ShowPics"/>
+            <item android:id="@+id/nav_OpenGL" android:icon="@android:drawable/ic_dialog_info"
+                android:title="OpenGL ES"/>
+
+        </menu>
+    </item>
+
+</menu>
